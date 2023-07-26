@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    border-color: paleturquoise;
+    border-style: dashed;
+    box-sizing: 2px;
+    height: 100vw;
+    
+}
+article {
+    width: 70vw;
+    border: blue dashed 2px;
+    
+}
+#twitTextBox{
+    position: absolute;
+   
+    left: 70px;
+    height: 35px;
+    width:30vw;
+    margin: auto;
+    margin-bottom: 3px;
+    
+    border: 0px;
+    outline: 0px;
+    border-radius: 2px;
+    transition: height .5s , width .5s ;
+    bottom:5px;
+    
+}
+#twitTextBox:hover{
+    height: 80%;
+    width:32vw;
+    
+}
+#twitTextBox:focus{
+    height: 80%;
+    width:32vw;
+}
+#twitFormBox{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: auto;
+    width:50vw;
+    height: 5vw;
+    border: black dashed 2px;
+    border-radius: 0px;
+    /* padding: 5px; */
+
+}
+
+#twitButtonDiv{
+    margin: auto;
+    top: 30px ;
+    left: 80%;
+    float: left;
+    position: absolute;
+    transition: .5s;
+}
+#twitButtonDiv input{
+    background-color: #448dee;
+    border:  rgb(8, 136, 136);
+    border-radius: 10px;
+    width: 100px;
+    
+}
+#twitButtonDiv:hover{
+    top: 25;
+}
+
+#personImg{
+    width: 50px;
+    height: 50px;
+    top: 7px;
+    left: 5px;
+    border-radius: 50%;
+    position: absolute;
+}
